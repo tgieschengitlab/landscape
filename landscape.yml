@@ -861,6 +861,19 @@ landscape:
               summary_intro_url: https://www.youtube.com/watch?v=TsECBaAvm-g
               clomonitor_name: dragonfly
           - item:
+            name: GitLab
+            homepage_url: https://about.gitlab.com/
+            repo_url: https://gitlab.com/gitlab-org/gitlab
+            logo: gitlab.svg
+            crunchbase: https://www.crunchbase.com/organization/gitlab-com
+            description: >
+              GitLab is an AI-powered DevSecOps platform that reflects the entire software delivery lifecycle from planning to deplyoment in one single application.
+            extra:
+              summary_use_case: >
+                GitLab enables teams to build, store, and manage container images
+                alongside their source code and CI/CD pipelines, simplifying image
+                publishing and deployment for cloud-native applications.
+          - item:
             name: Google Container Registry
             description: >-
               Container Registry is a single place for your team to manage Docker images, perform vulnerability analysis, and decide who can access what with
@@ -1445,6 +1458,19 @@ landscape:
             homepage_url: https://www.gitguardian.com/
             logo: gitguardian.svg
             crunchbase: https://www.crunchbase.com/organization/gitguardian
+          - item:
+            name: GitLab
+            homepage_url: https://about.gitlab.com/
+            repo_url: https://gitlab.com/gitlab-org/gitlab
+            logo: gitlab.svg
+            crunchbase: https://www.crunchbase.com/organization/gitlab-com
+            description: >
+              GitLab is an AI-powered DevSecOps platform that reflects the entire software delivery lifecycle from planning to deplyoment in one single application.
+            extra:
+              summary_use_case: >
+                GitLab enables teams to identify, test, and resolve security
+                vulnerabilities using integrated SAST, DAST, dependency scanning,
+                container scanning, secret detection, and SBOM capabilities.
           - item:
             name: Goldilocks
             homepage_url: https://www.fairwinds.com/open-source-software
@@ -8266,10 +8292,14 @@ landscape:
           - item:
             name: GitLab
             homepage_url: https://about.gitlab.com/
-            repo_url: https://github.com/gitlabhq/gitlabhq
-            url_for_bestpractices: https://gitlab.com/gitlab-org/gitlab-ce
+            repo_url: https://gitlab.com/gitlab-org/gitlab
             logo: gitlab.svg
             crunchbase: https://www.crunchbase.com/organization/gitlab-com
+            description: >
+              GitLab is an AI-powered DevSecOps platform that reflects the entire software delivery lifecycle from planning to deplyoment in one single application.
+            extra:
+              summary_use_case: >
+                GitLab enables teams to build, test, and deploy applications using its integrated CI/CD capabilities. 
           - item:
             name: Gitness
             homepage_url: https://gitness.com/
